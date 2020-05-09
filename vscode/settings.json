@@ -1,22 +1,24 @@
 //linux
 {
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": -1,
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
-    "window.zoomLevel": -1,
-    "editor.wordWrap": "on",
-    "terminal.integrated.shell.linux": "/bin/zsh",
     "workbench.sideBar.location": "left",
+    "editor.wordWrap": "on",
+    "editor.cursorStyle": "line-thin",
+    "editor.fontLigatures": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
+    "terminal.integrated.shell.linux": "/bin/zsh",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
     "terminal.external.linuxExec": "xfce4-terminal",
 
     //configuracoes adicionais
     "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": false,
     "explorer.compactFolders": false,
     "terminal.integrated.fontSize": 14,
 
@@ -26,10 +28,9 @@
         "javascript": "javascriptreact"
     },
     "git.enableSmartCommit": true,
-    "workbench.iconTheme": "material-icon-theme"
 }
 
-//windowns
+//windows
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.cursorStyle": "line-thin",
