@@ -1,0 +1,2 @@
+rofi -combi-modi drun,run,ssh -font "hack 10" -show combi
+rofi.theme: /usr/share/rofi/themes/oxide.rasi
