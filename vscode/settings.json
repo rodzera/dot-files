@@ -1,0 +1,59 @@
+//linux
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "window.zoomLevel": -1,
+    "editor.wordWrap": "on",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "workbench.sideBar.location": "left",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.external.linuxExec": "xfce4-terminal",
+
+    //configuracoes adicionais
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.fontSize": 14,
+
+    //criar classes no js/html automaticamente
+    "emmet.syntaxProfiles": { "javascript": "jsx"},
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme"
+}
+
+//windowns
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.cursorStyle": "line-thin",
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": -1,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.fontLigatures": false,
+
+    //configuracoes adicionais
+    "editor.fontFamily": "Fira Code",
+    "explorer.compactFolders": false,
+    "terminal.integrated.fontSize": 14,
+
+    //criar classes no js/html automaticamente
+    "emmet.syntaxProfiles": { "javascript": "jsx"},
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "git.enableSmartCommit": true,
+}
