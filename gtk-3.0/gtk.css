@@ -3,7 +3,7 @@
 
 * {
     -XfdesktopIconView-ellipsize-icon-labels: 0;
-    -XfdesktopIconView-cell-text-width-proportion: 3px;
-    -XfdesktopIconView-cell-spacing: 2px;
+    -XfdesktopIconView-cell-text-width-proportion: 2.7px;
+    -XfdesktopIconView-cell-spacing: 0px;
     -XfdesktopIconView-cell-padding: 2px;
 }
