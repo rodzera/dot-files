@@ -1,0 +1,9 @@
+/* ~/.config/gtk-3.0/gtk.css */
+/* modify desktop icon label length */
+
+* {
+    -XfdesktopIconView-ellipsize-icon-labels: 0;
+    -XfdesktopIconView-cell-text-width-proportion: 3px;
+    -XfdesktopIconView-cell-spacing: 2px;
+    -XfdesktopIconView-cell-padding: 2px;
+}
