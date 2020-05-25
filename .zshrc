@@ -149,3 +149,4 @@ zinit light zsh-users/zsh-completions
 #cd ~/Desktop
 export PATH=$PATH:~/development/web-development/dart-sass
 export PATH=$PATH:~/games/tibia
+export PATH="$(yarn global bin):$PATH"
