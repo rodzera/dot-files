@@ -1,33 +1,29 @@
 //linux
 {
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": -1,
+    "workbench.colorTheme": "One Dark Pro",
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
     "workbench.sideBar.location": "left",
+    "window.zoomLevel": -1,
+    "editor.fontFamily": "Hack",
     "editor.wordWrap": "on",
     "editor.cursorStyle": "line-thin",
     "editor.fontLigatures": false,
+    "editor.detectIndentation": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "terminal.integrated.shell.linux": "/bin/zsh",
+    "explorer.compactFolders": false,
+    "terminal.integrated.shell.linux": "/bin/bash",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
-    "terminal.external.linuxExec": "xfce4-terminal",
-
-    //configuracoes adicionais
-    "editor.fontFamily": "Fira Code",
-    "explorer.compactFolders": false,
     "terminal.integrated.fontSize": 14,
-
-    //criar classes no js/html automaticamente
-    "emmet.syntaxProfiles": { "javascript": "jsx"},
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
     "git.enableSmartCommit": true,
+    
+    //js
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
 }
 
 //windows
