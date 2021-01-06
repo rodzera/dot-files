@@ -1,9 +1,7 @@
 call plug#begin("~/.vim/plugged")
     " Theme
     Plug 'dracula/vim'
-    Plug 'joshdick/onedark.vim'
-
-    " 
+    Plug 'joshdick/onedark.vim' 
     Plug 'sheerun/vim-polyglot'
 
 call plug#end()"Config Section
@@ -15,4 +13,7 @@ endif
 
 " Theme
 syntax enable
-colorscheme dracula
+colorscheme onedark
+
+" Cursor
+set guicursor=
