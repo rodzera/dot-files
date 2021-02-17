@@ -16,7 +16,7 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
-  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontSize": 14,
