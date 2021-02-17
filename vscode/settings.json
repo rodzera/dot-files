@@ -1,29 +1,30 @@
 //linux
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": true,
-    "workbench.sideBar.location": "left",
-    "window.zoomLevel": -1,
-    "editor.fontFamily": "Hack",
-    "editor.wordWrap": "on",
-    "editor.cursorStyle": "line-thin",
-    "editor.fontLigatures": false,
-    "editor.detectIndentation": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "explorer.compactFolders": false,
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.fontSize": 14,
-    "git.enableSmartCommit": true,
-    
-    //js
-    "emmet.syntaxProfiles": { "javascript": "jsx" },
-    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "window.zoomLevel": -1,
+  "editor.fontFamily": "Hack",
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "line-thin",
+  "editor.fontLigatures": false,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 14,
+  "git.enableSmartCommit": true,
+  
+  // js / html
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
 }
 
 //windows
@@ -42,15 +43,15 @@
     "explorer.confirmDelete": false,
     "editor.fontLigatures": false,
 
-    //configuracoes adicionais
     "editor.fontFamily": "Fira Code",
     "explorer.compactFolders": false,
     "terminal.integrated.fontSize": 14,
 
-    //criar classes no js/html automaticamente
+    // js/html
     "emmet.syntaxProfiles": { "javascript": "jsx"},
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
+    
     "git.enableSmartCommit": true,
 }
