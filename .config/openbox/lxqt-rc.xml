@@ -126,13 +126,15 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>6</number>
     <firstdesk>1</firstdesk>
     <names>
-      <!-- set names up here if you want to, like this:
-    <name>desktop 1</name>
-    <name>desktop 2</name>
-    -->
+      <name>desktop 1</name>
+      <name>desktop 2</name>
+      <name>desktop 3</name>
+      <name>desktop 4</name>
+      <name>desktop 5</name>
+      <name>desktop 6</name>
     </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -188,49 +190,49 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="C-A-Left">
+    <keybind key="C-W-Left">
       <action name="GoToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Right">
+    <keybind key="C-W-Right">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Up">
+    <keybind key="C-W-Up">
       <action name="GoToDesktop">
         <to>up</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Down">
+    <keybind key="C-W-Down">
       <action name="GoToDesktop">
         <to>down</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-S-A-Left">
+    <keybind key="C-S-W-Left">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-S-A-Right">
+    <keybind key="C-S-W-Right">
       <action name="SendToDesktop">
         <to>right</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-S-A-Up">
+    <keybind key="C-S-W-Up">
       <action name="SendToDesktop">
         <to>up</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-S-A-Down">
+    <keybind key="C-S-W-Down">
       <action name="SendToDesktop">
         <to>down</to>
         <wrap>no</wrap>
@@ -296,6 +298,17 @@
     <keybind key="F11">
       <action name="ToggleFullscreen"/>
     </keybind>
+    <!-- Maximize, Middlescreen, Iconify -->
+    <keybind key="S-W-Up">        
+      <action name="Maximize"/>
+    </keybind>
+    <keybind key="S-W-Down">        
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo"><x>center</x><y>center</y><width>75%</width><height>75%</height></action>
+    </keybind>
+    <keybind key="S-W-i">      
+      <action name="Iconify"/>
+    </keybind>
   </keyboard>
   <mouse>
     <!--
@@ -348,12 +361,12 @@
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Up" action="Click">
+      <mousebind button="C-W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Down" action="Click">
+      <mousebind button="C-W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
@@ -561,7 +574,7 @@
       </mousebind>
     </context>
     <context name="Desktop">
-    <!--
+      <!--
       <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -583,12 +596,12 @@
           <to>next</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Up" action="Click">
+      <mousebind button="C-W-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
       </mousebind>
-      <mousebind button="C-A-Down" action="Click">
+      <mousebind button="C-W-Down" action="Click">
         <action name="GoToDesktop">
           <to>next</to>
         </action>
