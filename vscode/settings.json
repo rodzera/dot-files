@@ -29,29 +29,29 @@
 
 //windows
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.cursorStyle": "line-thin",
-    "terminal.integrated.cursorBlinking": true,
-    "workbench.colorTheme": "One Dark Pro",
-    "window.zoomLevel": -1,
-    "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": true,
-    "workbench.sideBar.location": "left",
-    "editor.wordWrap": "on",
-    "workbench.iconTheme": "material-icon-theme",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.fontLigatures": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.cursorStyle": "line-thin",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "window.zoomLevel": -1,
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "editor.wordWrap": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.fontLigatures": false,
 
-    "editor.fontFamily": "Fira Code",
-    "explorer.compactFolders": false,
-    "terminal.integrated.fontSize": 14,
+  "editor.fontFamily": "Fira Code",
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 14,
 
-    // js/html
-    "emmet.syntaxProfiles": { "javascript": "jsx"},
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    
-    "git.enableSmartCommit": true,
+  // js/html
+  "emmet.syntaxProfiles": { "javascript": "jsx"},
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+
+  "git.enableSmartCommit": true,
 }
