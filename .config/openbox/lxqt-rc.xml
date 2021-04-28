@@ -299,14 +299,19 @@
       <action name="ToggleFullscreen"/>
     </keybind>
     <!-- Maximize, Middlescreen, Iconify -->
-    <keybind key="S-W-Up">        
+    <keybind key="S-W-Up">
       <action name="Maximize"/>
     </keybind>
-    <keybind key="S-W-Down">        
+    <keybind key="S-W-Down">
       <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo"><x>center</x><y>center</y><width>75%</width><height>75%</height></action>
+      <action name="MoveResizeTo">
+        <x>center</x>
+        <y>center</y>
+        <width>75%</width>
+        <height>75%</height>
+      </action>
     </keybind>
-    <keybind key="S-W-i">      
+    <keybind key="S-W-i">
       <action name="Iconify"/>
     </keybind>
   </keyboard>
@@ -680,6 +685,7 @@
     <showIcons>yes</showIcons>
     <!-- controls if icons appear in the client-list-(combined-)menu -->
   </menu>
+  
   <applications>
     <!--
   # this is an example with comments through out. use these to make your
@@ -792,6 +798,10 @@
         <x>center</x>
         <y>center</y>
       </position>
+      <size>
+        <width>75%</width>
+        <height>75%</height>
+      </size>
     </application>
   </applications>
 </openbox_config>
