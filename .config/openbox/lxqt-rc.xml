@@ -798,10 +798,6 @@
         <x>center</x>
         <y>center</y>
       </position>
-      <size>
-        <width>75%</width>
-        <height>75%</height>
-      </size>
     </application>
   </applications>
 </openbox_config>
