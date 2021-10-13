@@ -122,7 +122,6 @@ SPACESHIP_CHAR_SUFFIX=" "
 #SPACESHIP_TIME_SHOW=true
 #SPACESHIP_TIME_COLOR=magenta
 
-export PATH="$(yarn global bin):$PATH"
-export NVM_DIR="$HOME/.nvm" # yarn packages
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
