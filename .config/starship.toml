@@ -14,4 +14,4 @@ style_root = "black bold"
 show_always = true
 
 [cmd_duration]
-style = "purple bold"
+style = "yellow bold"
