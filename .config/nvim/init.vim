@@ -1,9 +1,8 @@
 call plug#begin("~/.vim/plugged")
-    " Theme
-    Plug 'dracula/vim'
-    Plug 'joshdick/onedark.vim' 
     Plug 'sheerun/vim-polyglot'
-
+    Plug 'sonph/onehalf'
+    Plug 'ghifarit53/tokyonight-vim'
+    Plug 'kyoz/purify'
 call plug#end()"Config Section
 
 " Enable theming support
@@ -13,7 +12,6 @@ endif
 
 " Theme
 syntax enable
-colorscheme onedark
 
 " Cursor
 set guicursor=

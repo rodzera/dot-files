@@ -1,0 +1,7 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'kyoz/purify', { 'rtp': 'vim' }
+
+call plug#end()
