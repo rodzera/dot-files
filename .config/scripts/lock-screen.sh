@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PICTURE=/tmp/i3lock.png
+PICTURE=/tmp/lock-screen.png
 SCREENSHOT="scrot $PICTURE"
 
 BLUR="5x4"
