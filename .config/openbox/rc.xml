@@ -48,7 +48,7 @@
   <theme>
     <!--  Lubuntu specific : Theme = Lubuntu and font = Ubuntu
   -->
-    <name>KvArcDark</name>
+    <name>Kvantum</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
     available characters are NDSLIMC, each can occur at most once.
@@ -63,21 +63,21 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Ubuntu Medium</name>
+      <name>Ubuntu</name>
       <size>11</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Ubuntu Medium</name>
+      <name>Ubuntu</name>
       <size>11</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
@@ -99,21 +99,21 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Ubuntu Medium</name>
+      <name>Ubuntu</name>
       <size>11</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Ubuntu Medium</name>
+      <name>Ubuntu</name>
       <size>11</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
   </theme>
@@ -126,7 +126,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>6</number>
+    <number>8</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>desktop 1</name>
@@ -135,6 +135,8 @@
       <name>desktop 4</name>
       <name>desktop 5</name>
       <name>desktop 6</name>
+      <name>desktop 7</name>
+      <name>desktop 8</name>
     </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -260,7 +262,7 @@
           <action name="Raise"/>
           <action name="Unshade"/>
         </finalactions>
-        <allDesktops>yes</allDesktops>
+        <allDesktops>no</allDesktops>
       </action>
     </keybind>
     <keybind key="A-S-Tab">
@@ -270,7 +272,7 @@
           <action name="Raise"/>
           <action name="Unshade"/>
         </finalactions>
-        <allDesktops>yes</allDesktops>
+        <allDesktops>no</allDesktops>
       </action>
     </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
@@ -309,6 +311,24 @@
         <y>center</y>
         <width>75%</width>
         <height>75%</height>
+      </action>
+    </keybind>
+    <keybind key="S-W-Left">
+      <action name="MoveResizeTo">
+        <monitor>1</monitor>
+        <x>center</x>
+        <y>center</y>
+        <width>75%</width>
+        <height>75%</height>
+      </action>
+    </keybind>
+    <keybind key="S-W-Right">
+      <action name="MoveResizeTo">
+        <monitor>2</monitor>
+        <x>center</x>
+        <y>center</y>
+        <height>768</height>
+        <width>1366</width>
       </action>
     </keybind>
     <keybind key="S-W-i">
@@ -685,7 +705,6 @@
     <showIcons>yes</showIcons>
     <!-- controls if icons appear in the client-list-(combined-)menu -->
   </menu>
-  
   <applications>
     <!--
   # this is an example with comments through out. use these to make your
