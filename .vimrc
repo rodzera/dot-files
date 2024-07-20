@@ -22,9 +22,6 @@ set expandtab
 " Automatically wrap text that extends beyond the screen length.
 set wrap
 
-" Turn syntax highlighting on.
-syntax on
-
 " Add numbers to each line on the left-hand side.
 set number
 
@@ -50,20 +47,12 @@ if filereadable(expand("~/.vimrc.plug"))
     source ~/.vimrc.plug
 endif
 
-
-" THEME 
- 
-" TOKYONIGHT
-"let g:tokyonight_style = 'night' " available: night, storm
-"let g:tokyonight_enable_italic = 1
-"colorscheme tokyonight
-
-" ONEHALF
-"set t_Co=256
-"set cursorline
-"colorscheme onehalfdark
-"let g:airline_theme='onehalfdark'
-
-" PURIFY
+" Themes
 colorscheme purify
+" colorscheme onedark
 
+" NerdTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
