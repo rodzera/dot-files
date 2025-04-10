@@ -5,9 +5,10 @@ set -x PATH $PATH $ANDROID_HOME/emulator
 set -x PATH $PATH $ANDROID_HOME/platform-tools
 if status is-interactive
     and not set -q TMUX
-    if set -q TERMINAL_EMULATOR
-        tmux new-session -As jediterm
-    else
-        tmux new-session -As gnome
-    end
+    set session (set -q TERMINAL_EMULATOR; and echo jediterm; or echo gnome)
+
+    tmux has-session -t $session 2>/dev/null
+    or tmux new-session -ds $session \; source-file ~/.tmux.conf
+
+    tmux attach-session -t $session
 end
