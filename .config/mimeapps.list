@@ -10,4 +10,3 @@ text/html=firefox_firefox.desktop;google-chrome.desktop;
 application/xhtml+xml=firefox_firefox.desktop;google-chrome.desktop;
 x-scheme-handler/http=firefox_firefox.desktop;google-chrome.desktop;
 x-scheme-handler/https=firefox_firefox.desktop;google-chrome.desktop;
-

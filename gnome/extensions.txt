@@ -1,0 +1,9 @@
+mediacontrols@cliffniff.github.com
+clipboard-indicator@tudmotu.com
+Hide_Activities@shay.shayel.org
+extension-list@tu.berry
+advanced-alt-tab@G-dH.github.com
+ding@rastersoft.com
+tiling-assistant@ubuntu.com
+ubuntu-appindicators@ubuntu.com
+ubuntu-dock@ubuntu.com
