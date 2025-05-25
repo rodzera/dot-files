@@ -52,7 +52,6 @@ endif
 
 " themes
 colorscheme purify
-" colorscheme onedark
 
 " nerdtree
 nnoremap <leader>n :NERDTreeFocus<CR>

@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'kyoz/purify', { 'rtp': 'vim' }
-Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
 
