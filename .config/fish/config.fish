@@ -7,6 +7,7 @@ set -x PATH $PATH $ANDROID_HOME/platform-tools
 
 if status is-interactive
     and not set -q TMUX
+    and not test "$TERMINAL_EMULATOR" = "JetBrains-JediTerm"
     
     # kill all detached sessions
     tmux list-sessions -F "#{session_name}:#{session_attached}" | \
